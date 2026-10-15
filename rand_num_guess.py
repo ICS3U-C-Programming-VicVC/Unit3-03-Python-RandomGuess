@@ -22,7 +22,7 @@ def main():
         # If correct then tell the user they guessed correctly
         print("You Guessed Correctly!")
 
-    if guessed != correct_number:
+    else:
 
         # If not correct then tell the user they guessed incorrectly
         print("You Guessed Incorrectly!")
